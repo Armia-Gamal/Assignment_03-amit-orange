@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.product-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.product-details .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5722;
+  margin: 10px 0;
+}
+
+.product-details p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-details .rating {
+  display: flex;
+  align-items: center;
+  color: #ffd700;
+}
+
+.product-details .rating span {
+  margin-left: 5px;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.product-details .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5722;
+  margin: 10px 0;
+}
+
+.product-details p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-details .rating {
+  display: flex;
+  align-items: center;
+  color: #ffd700;
+}
+
+.product-details .rating span {
+  margin-left: 5px;
+  color: #333;
+}
