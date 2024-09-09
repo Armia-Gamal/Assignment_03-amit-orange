@@ -11,7 +11,7 @@ let GetData = async()=>{
             <img src="${product.image}" alt="${product.title}"/>
             <h3>${product.title}</h3>
             <p>${product.price} EGP</p>
-            <a href="./singleProduct.html?id=${product.id}">show more</a>
+            <a href="./index1.html?id=${product.id}">show more</a>
         
         </div>
         
